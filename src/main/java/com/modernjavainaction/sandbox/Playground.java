@@ -1,4 +1,5 @@
 package com.modernjavainaction.sandbox;
+import com.modernjavainaction.common.model.Dish;
 
 /**
  * Sandbox - Your Free-Form Playground
@@ -32,7 +33,7 @@ public class Playground {
         System.out.println("Start experimenting below!");
         System.out.println("────────────────────────────────────────────────────────────");
 
-        // YOUR CODE HERE
+        System.out.println(Dish.getMenu());
         // Try things out!
 
     }

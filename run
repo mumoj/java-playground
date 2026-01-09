@@ -1,0 +1,30 @@
+#!/bin/bash
+# Usage: ./run ClassName
+# Example: ./run IntroducingStreams
+
+if [ -z "$1" ]; then
+  echo "Usage: ./run <ClassName>"
+  echo ""
+  echo "Runnable classes:"
+  grep -rl "public static void main" src/main --include="*.java" | sed 's|.*/||; s|\.java||' | sort
+  exit 1
+fi
+
+NAME="${1%.java}"  # Strip .java if provided
+CLASS=$(find src/main/java -name "$NAME.java" -print -quit)
+
+if [ -z "$CLASS" ]; then
+  echo "❌ Class '$NAME' not found."
+  exit 1
+fi
+
+if ! grep -q "public static void main" "$CLASS"; then
+  echo "❌ '$NAME' has no main method (it's a model/utility class)."
+  echo ""
+  echo "Runnable classes:"
+  grep -rl "public static void main" src/main --include="*.java" | sed 's|.*/||; s|\.java||' | sort
+  exit 1
+fi
+
+PACKAGE=$(grep "^package " "$CLASS" | sed 's/package //; s/;//')
+mvn -q compile exec:java -Dexec.mainClass="$PACKAGE.$NAME"
