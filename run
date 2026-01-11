@@ -27,4 +27,5 @@ if ! grep -q "public static void main" "$CLASS"; then
 fi
 
 PACKAGE=$(grep "^package " "$CLASS" | sed 's/package //; s/;//')
+export MAVEN_OPTS="--enable-preview"
 mvn -q compile exec:java -Dexec.mainClass="$PACKAGE.$NAME"

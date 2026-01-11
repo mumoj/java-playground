@@ -1,4 +1,5 @@
 /home/fro/java-playground/src/main/java/com/modernjavainaction/part2_streams/chapter06_collecting_data/CollectingData.java
+/home/fro/java-playground/src/main/java/com/modernjavainaction/part7_java21_features/chapter24_other_features/OtherJava21Features.java
 /home/fro/java-playground/src/main/java/com/modernjavainaction/part1_fundamentals/chapter01_whats_happening/WhatsHappening.java
 /home/fro/java-playground/src/main/java/com/modernjavainaction/part6_functional_programming/chapter19_fp_techniques/FpTechniques.java
 /home/fro/java-playground/src/main/java/com/modernjavainaction/part3_effective_programming/chapter09_refactoring_testing/RefactoringTestingDebugging.java
@@ -12,12 +13,15 @@
 /home/fro/java-playground/src/main/java/com/modernjavainaction/part5_concurrency/chapter17_reactive_programming/ReactiveProgramming.java
 /home/fro/java-playground/src/main/java/com/modernjavainaction/sandbox/Playground.java
 /home/fro/java-playground/src/main/java/com/modernjavainaction/part5_concurrency/chapter15_completable_future_concepts/FutureAndAsyncConcepts.java
+/home/fro/java-playground/src/main/java/com/modernjavainaction/part7_java21_features/chapter22_pattern_matching/PatternMatching.java
+/home/fro/java-playground/src/main/java/com/modernjavainaction/part7_java21_features/chapter21_virtual_threads/VirtualThreads.java
 /home/fro/java-playground/src/main/java/com/modernjavainaction/part1_fundamentals/chapter02_behavior_parameterization/BehaviorParameterization.java
 /home/fro/java-playground/src/main/java/com/modernjavainaction/part3_effective_programming/chapter10_dsl_with_lambdas/DslWithLambdas.java
 /home/fro/java-playground/src/main/java/com/modernjavainaction/part4_everyday_java/chapter13_default_methods/DefaultMethods.java
 /home/fro/java-playground/src/main/java/com/modernjavainaction/part5_concurrency/chapter16_completable_future/CompletableFutureExamples.java
 /home/fro/java-playground/src/main/java/com/modernjavainaction/part2_streams/chapter04_introducing_streams/IntroducingStreams.java
 /home/fro/java-playground/src/main/java/com/modernjavainaction/part3_effective_programming/chapter08_collection_api/CollectionApiEnhancements.java
+/home/fro/java-playground/src/main/java/com/modernjavainaction/part7_java21_features/chapter23_sequenced_collections/SequencedCollections.java
 /home/fro/java-playground/src/main/java/com/modernjavainaction/part4_everyday_java/chapter14_module_system/ModuleSystemOverview.java
 /home/fro/java-playground/src/main/java/com/modernjavainaction/part6_functional_programming/chapter20_oop_and_fp/OopAndFp.java
 /home/fro/java-playground/src/main/java/com/modernjavainaction/part4_everyday_java/chapter11_optional/OptionalExercises.java
